@@ -1,0 +1,41 @@
+
+
+.sidebar{
+  height: 100vh;
+  min-width: 200px;
+  position: fixed;
+  a{
+      color: black;
+  }
+  .active{
+      color: #198754;
+  }
+}
+
+.container{
+  height: 100%;
+  a{
+      color: #212529;
+      
+  }
+}
+
+
+
+.person{
+  img{
+      width: 40px;
+      height: 40px;
+  }
+  h2{
+      font-size: 16px;
+      line-height: 1.5;
+  }
+  a{
+      font-size: 14px;
+      line-height: 1.5;
+      color: black;
+      text-decoration: none;
+  }
+}
+

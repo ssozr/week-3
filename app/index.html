@@ -1,0 +1,138 @@
+---
+title: Boostrap Index
+layout: ./app/layout.ejs
+engine: ejs
+current: index
+---
+
+<div class="container">
+  <div class="row flex-nowrap justify-content-between align-items-center mb-6">
+      <div class="col-6 d-flex ps-0">
+          <p class="mb-0 ">All (4)</p>
+          <span class="material-symbols-rounded text-success">
+              expand_more
+          </span>
+      </div>
+          <p class="col-6 text-end mb-0">2 comments</p>
+      </div>
+  </div>
+  <div class="container">
+  <div class="row flex-nowrap justify-content-between">
+      <div class="list-group col-4 ">
+          <a href="#" class="list-group-item list-group-item-action bg-light fz-12 p-3" aria-current="true">
+            <div class="d-flex w-100 justify-content-between">
+              <h5 class="mb-1 fz-12 ">Chapter Assignment 2</h5>
+              <small class="fw-bold">4 hrs ago</small>
+            </div>
+            <div class="d-flex w-100 justify-content-between">
+              <h5 class="mb-1 fz-16 fw-bold">Please check this file…</h5>
+              <small>Emily Wang</small>
+            </div>
+          </a>
+          <a href="#" class="list-group-item list-group-item-action fz-12 p-3">
+              <div class="d-flex w-100 justify-content-between">
+                  <h5 class="mb-1 fz-12">Chapter Assignment 1</h5>
+                  <small class="fw-bold">12 hrs ago</small>
+              </div>
+              <div class="d-flex w-100 justify-content-between">
+                  <h5 class="mb-1 fz-16 fw-bold">My Homework</h5>
+                  <small>David Xu</small>
+              </div>
+          </a>
+          <a href="#" class="list-group-item list-group-item-action fz-12 p-3">
+              <div class="d-flex w-100 justify-content-between">
+                  <h5 class="mb-1 fz-12 ">Final Assignment</h5>
+                  <small class="fw-bold">18 hrs ago</small>
+              </div>
+              <div class="d-flex w-100 justify-content-between">
+                  <h5 class="mb-1 fz-16 fw-bold">Have a problem with this…</h5>
+                  <small>Tony Wei</small>
+              </div>
+          </a>
+          <a href="#" class="list-group-item list-group-item-action fz-12 p-3">
+              <div class="d-flex w-100 justify-content-between">
+                  <h5 class="mb-1 fz-12">Final Assignment</h5>
+                  <small class="fw-bold">19 hrs ago</small>
+              </div>
+              <div class="d-flex w-100 justify-content-between">
+                  <h5 class="mb-1 fz-16 fw-bold">Did I do it right?</h5>
+                  <small>Christina Lin</small>
+              </div>
+          </a>
+      </div>
+      <div class="col-8 ps-1">
+          <div class="card border-#CED4DA mb-3  ps-0 pe-0">
+              <div class="card-header bg-transparent border-#CED4DA d-flex justify-content-between align-items-center p-12-12">
+                  <div class="fz-16 mt-0">
+                      <p class="mb-1 fz-12">Chapter Assignment 2 / HTML&CSS</p>
+                      <p class="mb-1 fz-16 fw-bold">Please check this file for me, thanks!</p>
+                  </div>
+                  <div>
+                      <span class="material-symbols-outlined">
+                          more_vert
+                      </span>
+                  </div>
+              </div>
+              <div class="card-body text-#212529 d-flex pl-2rem pr-2rem">
+                  <div class="me-2 person">
+                      <img class="rounded-circle" src="assets/images/emilywang.jpeg" alt="">
+                  </div>
+                  <div>
+                      <div class="">
+                          <h5 class="card-title fz-16 mb-1 fw-bold">Emily Wang</h5>
+                          <p class="fz-12">10:38 AM (4 hours ago)</p>
+                      </div>  
+                      <p class="card-text fz-14">Hi Teacher, the attached file is my homework of chapter 2. And here comes a question: Why in the following code the height of the <span class="text-success">div</span> is bigger than the height of the <span class="text-success">img</span>  ? There is a gap below the image, but it doesn’t seems to be a padding/margin. What is the gap or extra space below image?</p>
+                      <div class="border-bottom border-#CED4DA">
+                          <button type="button" class="btn btn-outline-secondary bg-light d-flex mb-7 fz-16 fw-bold">
+                              <span class="material-symbols-rounded">
+                              attachment</span>HW-2-David.zip
+                          </button>
+                      </div>
+                  </div>
+              </div>
+              <div class="card-body text-#212529  d-flex pl-2rem pr-2rem"> 
+                  <div class="me-2 person">
+                      <img class="rounded-circle" src="assets/images/andychen.jpeg" alt="">
+                  </div>
+                  <div>
+                      <div class="d-flex justify-content-between">
+                          <div>
+                                  <h5 class="card-title fz-16 mb-1 fw-bold">Andy Chen (You)</h5>
+                                  <p class="fz-12">13:24 AM (1 hours ago)</p>
+                          </div> 
+                          <div>
+                              <span class="material-symbols-rounded">
+                                  edit
+                              </span>
+                              <span class="material-symbols-rounded">
+                                  gradee
+                              </span>
+                          </div>
+                      </div>
+                      <p class="card-text fz-14">Hi David, by default, an image is rendered inline, like a letter so it sits on the same line that a, b, c and d sit on. There is space below that line for the descenders you find on letters like g, j, p and q.</p>
+                      <p>You can:</p> 
+                      <ul class="fz-14">
+                          <li> adjust the <span class="text-success"> vertical-align</span> of the image to position it elsewhere (e.g. the <span class="text-success">middle</span> ) or </li>
+                          <li>change the <span class="text-success">display</span> so it isn’t inline.</li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+          <div class=" d-flex justify-content-between align-items-center">
+              <div>
+                  <span class="material-symbols-rounded">
+                      chevron_left
+                  </span>
+                  <span class="material-symbols-rounded">
+                      chevron_right
+                  </span>
+              </div>
+              <div>
+                  <button type="button" class="btn btn-outline-success  p-8-32 "data-bs-toggle="button">Mark as read</button>
+                  <button type="button" class="btn btn-success p-8-32">Reply</button>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
