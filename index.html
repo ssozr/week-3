@@ -1,10 +1,84 @@
----
-title: Boostrap Index
-layout: ./app/layout.ejs
-engine: ejs
-current: index
----
+<!DOCTYPE html>
+<html lang="en">
 
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Boostrap Index</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link href="<https://fonts.googleapis.com/css2?family=Material+Icons>"
+      rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+    <link rel="stylesheet" href="./assets/style/all.css">
+  </head>
+
+  <body>
+    <div class="d-flex ">
+      <div class="d-flex flex-column justify-content-between ps-4 sidebar bg-light">
+        <nav class="nav flex-column">
+          <a class="nav-link mt-40 mb-42" aria-current="page" href="#"><img src="assets/images/logo-ANSWER.svg" alt=""></a>
+          <a class="nav-link mb-29 d-flex" href="#"><span class="material-icons pe-3">
+            assessment
+            </span>Dashboard</a>
+          <a class="nav-link mb-29  d-flex" href="#"><span class="material-icons pe-3">
+            question_answer
+            </span>Question</a>
+          <a class="nav-link active mb-29 d-flex" href="#"><span class="material-icons pe-3">
+            assignment
+            </span>Assignment</a>
+          <a class="nav-link mb-29 d-flex" href="#"><span class="material-icons pe-3">
+            video_library
+            </span>Course</a>
+          <a class="nav-link mb-29 d-flex" href="#"><span class="material-icons pe-3">
+            supervisor_account
+            </span>Admin</a>
+          <a class="nav-link mb-29 d-flex" href="#"><span class="material-icons pe-3">
+            settings
+            </span>Settings</a>
+          
+        </nav>
+        <div class="person d-flex">
+          <img class="rounded-circle me-3" src="assets/images/andychen.jpeg" alt="">
+          <div>
+            <h2 class="mb-1">Andy Chen</h2>
+            <a class="pr-80" href="">andy0401@mail.com</a>
+          </div>
+        </div>
+      </div>
+      <div class="container pl-32">
+        <div class="container d-flex justify-content-between  mt-32 ps-0 pb-32">
+          <ul class="nav nav-pills align-items-center">
+            <li class="nav-item">
+              <a class="nav-link fs-4 ps-0  aria-current="page" href="#">Assignment</a>
+            </li>
+            <li class="nav-item dropdown ms-50">
+              <a class="nav-link dropdown-toggle ps-0" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Assignment</a></li>
+                <li><a class="dropdown-item" href="#">All Courses<span class="material-icons ">
+                  expand_more
+                  </span></a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Separated link</a></li>
+              </ul>
+            </li>
+          </ul>
+          <div class="d-flex align-items-center">
+            <a href="#"><span class="material-icons me-26">
+              search
+              </span></a>
+              <a><span class="material-icons">
+                notifications_active
+                </span></a>
+          </div>
+        </div>
+        
 <div class="container">
   <div class="row flex-nowrap justify-content-between align-items-center mb-6">
       <div class="col-6 d-flex ps-0">
@@ -136,3 +210,11 @@ current: index
       </div>
   </div>
 </div>
+
+      </div>
+    </div>
+    <script src="./assets/js/vendors.js"></script>
+    <script src="./assets/js/all.js"></script>
+  </body>
+
+</html>
