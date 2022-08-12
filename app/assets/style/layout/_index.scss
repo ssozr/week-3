@@ -39,3 +39,15 @@
   }
 }
 
+#editor{
+  display: none;
+}
+
+.assessment::before{
+  content: '';
+  width: 4px;
+  height: 32px;
+  background-color: #198754;
+  position: absolute;
+  left: 0;
+}
