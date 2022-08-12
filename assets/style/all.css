@@ -11633,6 +11633,15 @@ fieldset:disabled .btn {
   padding-bottom: 32px;
 }
 
+body {
+  font-family: 'Lato', sans-serif;
+  line-height: 1.5;
+}
+
+.font-roboto-mono {
+  font-family: 'Roboto Mono', monospace;
+}
+
 .sidebar {
   height: 100vh;
   min-width: 200px;
@@ -11670,6 +11679,19 @@ fieldset:disabled .btn {
   line-height: 1.5;
   color: black;
   text-decoration: none;
+}
+
+#editor {
+  display: none;
+}
+
+.assessment::before {
+  content: '';
+  width: 4px;
+  height: 32px;
+  background-color: #198754;
+  position: absolute;
+  left: 0;
 }
 
 /*# sourceMappingURL=all.css.map */
